@@ -1,5 +1,7 @@
 from bs4 import  BeautifulSoup
 import requests
+import  excel
+
 
 class index(object):
 
@@ -40,5 +42,6 @@ class index(object):
     def cn_show(self):
         self.word = str(input('>>>>'))
         self.start()
+
 
 index_install = index()
