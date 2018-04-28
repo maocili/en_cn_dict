@@ -6,3 +6,5 @@ class excel(object):
         print(self.word)
     def save(self):
         print(self.word)
+
+excel_install = excel

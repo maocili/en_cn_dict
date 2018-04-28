@@ -7,8 +7,7 @@ class test(object):
 
     def save(self):
         print('save is ok')
-        excel.excel.word=self.word
-        excel.excel.save()
+        excel.excel_install.save(self)
 
 test_install = test()
 test_install.save()
